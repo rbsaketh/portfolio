@@ -22,9 +22,8 @@ export const seoData = {
   description:
     'Saketh Bireddy is a passionate software engineer with hands-on experience in developing full-stack applications and AI solutions.',
   author: author.name,
-  image:
-    'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
-  url: 'https://vatsalsinghkv.vercel.app/',
+  image: '/web.png',
+  url: 'https://saketh-bireddy.vercel.app/',
   keywords: [
     'Saketh',
     'Saketh Bireddy',
