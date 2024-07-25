@@ -7,9 +7,9 @@
     --color-bg: #18191a; /* Dark gray background */
     --color-bg-secondary: #212529; /* Slightly lighter dark gray for secondary background */
     --color-accent: #71797e; /* Light gray for accents */
-    --color-accent-light: rgba(177, 24, 126, 0.1); /* Light gray with opacity */
+    --color-accent-light: rgba(117, 115, 116, 0.1); /* Light gray with opacity */
     --color-text: #ffff; /* White text */
-    --color-dark-1: #a12323; /* Light gray for dark-1 */
+    --color-dark-1: #555555; /* Light gray for dark-1 */
     --color-dark-2: #818589; /* Slightly darker gray for dark-2 */
     --color-dark-3: #d3d3d3; /* Darker gray for dark-3 */
   }

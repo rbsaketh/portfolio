@@ -17,9 +17,9 @@ module.exports = {
         bg: '#18191a', // Dark gray background
         'bg-secondary': '#212529', // Slightly lighter dark gray for secondary background
         accent: '#71797E', // Light gray for accents
-        'accent-light': 'rgba(177, 24, 126, 0.1)', // Light gray with opacity
+        'accent-light': 'rgba(117, 115, 116, 0.1)', // Light gray with opacity
         text: '#FFFF', // White text
-        'dark-1': '#a12323', // Light gray for dark-1
+        'dark-1': '#555555', // Light gray for dark-1
         'dark-2': '#818589', // Slightly darker gray for dark-2
         'dark-3': '#D3D3D3', // Darker gray for dark-3
       },
