@@ -24,9 +24,9 @@ const ProjectCard = ({
   }, []);
 
   return domLoaded ? (
-    <motion.div {...rest} className="w-full max-w-[400px] md:max-w-[500px]">
-      <div className="block w-full overflow-hidden transition-all duration-200 rounded-md shadow-xl group bg-bg-secondary dark:shadow-2xl">
-        <div className="overflow-hidden h-[250px] md:h-[300px]">
+    <motion.div {...rest} className="w-full max-w-[400px] md:max-w-[500px] h-[700px]">
+      <div className="block w-full h-full overflow-hidden transition-all duration-200 rounded-md shadow-xl group bg-bg-secondary dark:shadow-2xl">
+        <div className="overflow-hidden h-[300px] md:h-[300px]">
           <Image
             src={img}
             alt={name}
@@ -37,7 +37,7 @@ const ProjectCard = ({
             className="object-cover w-full h-full transition-all duration-300 group-hover:scale-110 group-focus:scale-110"
           />
         </div>
-        <div className="p-4 py-3 space-y-2">
+        <div className="p-4 py-3 space-y-2 h-[500px] overflow-hidden">
           <div className="flex items-center justify-between">
             <p className="font-mono text-xs capitalize">{tags.join(' | ')}</p>
             <div className="flex items-center space-x-1.5">

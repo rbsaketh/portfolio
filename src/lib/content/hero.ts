@@ -6,7 +6,7 @@ export const heroSection: HeroSectionType = {
   title: 'Saketh Bireddy.',
   tagline: 'I use technology to create a brighter future.',
   description:
-    "I'm a passionate software engineer with hands-on experience in developing full-stack applications and AI solutions. My passion lies in leveraging technology to solve complex problems, drive social impact, and create meaningful user experiences",
+    "I'm a passionate software engineer with hands-on experience in developing full-stack applications and AI solutions. My passion lies in leveraging technology to solve complex problems, drive social impact, and create meaningful user experiences.",
   specialText: '',
   cta: {
     title: 'see my resume',

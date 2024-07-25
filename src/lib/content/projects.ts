@@ -6,152 +6,39 @@ export const projectsSection: ProjectsSectionType = {
   projects: [
     {
       id: getId(),
-      name: 'beautiful animations',
-      repo: 'https://github.com/vatsalsinghkv/beautiful-animations',
-      img: 'https://user-images.githubusercontent.com/68834718/265277125-da2a6e07-7cf6-411c-b55f-94e372aa6dc8.png',
+      name: 'Library Application',
+      repo: 'https://github.com/rbsaketh/Library-app',
+      img: '/third.png',
+      year: 2024,
+      tags: ['MongoDB', 'FilePond', 'React', 'CSS', 'Express.js', 'Node.js'],
+      description: 'This project utilizes a MERN stack, comprising MongoDB, Express.js, React.js, and Node.js, to create an efficient database for users to track books, authors, and other relevant information. The frontend is developed with React.js and styled with CSS, providing a responsive and user-friendly interface. The backend is built with Express.js, employing Mongoose models to handle data schemas and interactions seamlessly. MongoDB serves as the database, efficiently managing queries and storing user information. This system significantly enhances the ability to organize and access literary data, demonstrating the power and flexibility of full-stack JavaScript development.'
+    },
+    {
+      id: getId(),
+      name: 'Hack the Future Application System',
+      repo: 'https://github.com/rbsaketh',
+      img: '/hack.jpg',
+      year: 2024,
+      tags: ['MongoDB', 'React', 'CSS', 'Express.js', 'Node.js'],
+      description: 'This project involved developing a user-friendly web application for form management and response analysis. Utilizing a full-stack approach, the frontend was built with HTML, CSS, and React.js, while the backend was developed using Node.js. The application integrates advanced form features such as conditional logic, status-based sorting, detailed filtering, and single-response-per-email verification, significantly enhancing user interaction and data integrity.'
+    },
+    {
+      id: getId(),
+      name: 'Marketplace System',
+      repo: 'https://github.com/rbsaketh',
+      img: '/second.png',
       year: 2023,
-      tags: ['CSS Animations', 'Sass'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.      '
+      tags: ['Java', 'Network IO', 'GUI', 'Database', 'Query'],
+      description: 'This project involved developing a real-time concurrent messaging system in Java for a marketplace, featuring a graphical user interface (GUI) for user interaction. The system incorporated network IO and database queries to manage and display messages, ensuring seamless and efficient communication between customers and sellers.'
     },
     {
       id: getId(),
-      name: 'easy fix',
-      repo: 'https://github.com/vatsalsinghkv/easy-fix',
-      img: 'https://user-images.githubusercontent.com/68834718/258852895-df5c6da7-a698-40fb-97c3-a5474314cb85.png',
-      year: 2023,
-      tags: ['React', 'Tailwind'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.      '
-
-    },
-    {
-      id: getId(),
-      name: 'image animations',
-      repo: 'https://github.com/vatsalsinghkv/image-animations',
-      img: 'https://github-production-user-asset-6210df.s3.amazonaws.com/68834718/252267106-857c5341-1106-4e84-b7e6-80a668a20ba8.png',
-      year: 2023,
-      tags: ['CSS Animations', 'Sass'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.      '
-
-    },
-    {
-      id: getId(),
-      name: 'remotive jobs',
-      repo: 'https://github.com/vatsalsinghkv/remotive-jobs',
-      img: 'https://user-images.githubusercontent.com/68834718/189035104-aa71647e-33e4-442a-a2f9-c0d50bba2db1.png',
+      name: 'NLP for Finance',
+      repo: 'https://github.com/rbsaketh',
+      img: '/First.png',
       year: 2022,
-      tags: ['Nextjs', 'Sass'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.      '
-
-    },
-    {
-      id: getId(),
-      name: 'countries app',
-      repo: 'https://github.com/vatsalsinghkv/rest-countries-api',
-      img: 'https://user-images.githubusercontent.com/68834718/169527851-19fefb2e-e440-411a-a8a1-4767e2c8688a.png',
-      year: 2022,
-      tags: ['React', 'Sass'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.      '
-
-    },
-    {
-      id: getId(),
-      name: 'rock paper scissors',
-      repo: 'https://github.com/vatsalsinghkv/rock-paper-scissors',
-      img: 'https://user-images.githubusercontent.com/68834718/162578706-b9e57735-6fbc-4c7b-8243-2a6ba447404e.jpg',
-      year: 2022,
-      tags: ['React', 'Sass'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.      '
-
-    },
-    {
-      id: getId(),
-      name: 'todo app',
-      repo: 'https://github.com/vatsalsinghkv/todo-app',
-      img: 'https://user-images.githubusercontent.com/68834718/152794002-0e7bc583-084b-4c39-83bb-d82d5dd642b2.png',
-      year: 2022,
-      tags: ['React', 'Sass', 'JS'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.      '
-
-    },
-    {
-      id: getId(),
-      name: 'weather app',
-      repo: 'https://github.com/vatsalsinghkv/weather-app',
-      img: 'https://user-images.githubusercontent.com/68834718/148419702-491fa08d-e520-4e2f-b219-374ec7118b2b.png',
-      year: 2022,
-      tags: ['Html', 'sass', 'JS', 'jQuery'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.      '
-
-    },
-    {
-      id: getId(),
-      name: 'blogr landing page',
-      repo: 'https://github.com/vatsalsinghkv/blogr-landing-page',
-      img: 'https://user-images.githubusercontent.com/68834718/210222542-6455303d-c93e-430b-a5c8-96a431044184.png',
-      year: 2021,
-      tags: ['html', 'sass', 'JS'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.      '
-
-    },
-    {
-      id: getId(),
-      name: 'natours',
-      repo: 'https://github.com/vatsalsinghkv/natours',
-      img: 'https://user-images.githubusercontent.com/68834718/210223114-b4f64b44-2501-49c9-9fb7-b8e53fe654c6.png',
-      year: 2021,
-      tags: ['html', 'sass', 'JS'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.      '
-
-    },
-    {
-      id: getId(),
-      name: 'nexter',
-      repo: 'https://github.com/vatsalsinghkv/nexter',
-      img: 'https://user-images.githubusercontent.com/68834718/210224671-5501c5d9-a8d2-4044-a14c-38fb7e46a113.png',
-      year: 2021,
-      tags: ['html', 'sass'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.      '
-
-    },
-    {
-      id: getId(),
-      name: 'IP address tracker',
-      repo: 'https://github.com/vatsalsinghkv/ip-address-tracker',
-      img: 'https://user-images.githubusercontent.com/68834718/210223386-03bcaa20-e649-4b3d-8709-59e42c6d685a.png',
-      year: 2021,
-      tags: ['html', 'bootstrap', 'JS'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.      '
-
-    },
-    {
-      id: getId(),
-      name: 'calculator app',
-      repo: 'https://github.com/vatsalsinghkv/calculator-app/',
-      img: 'https://user-images.githubusercontent.com/68834718/210223825-3b68d696-39c6-490c-9433-f315b7efccbd.png',
-      year: 2021,
-      tags: ['html', 'CSS', 'JS'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.      '
-
-    },
-    {
-      id: getId(),
-      name: 'pig game',
-      repo: 'https://github.com/vatsalsinghkv/pig-game',
-      img: 'https://user-images.githubusercontent.com/68834718/210223527-de7fde7a-244e-4db5-8e33-d561afad6084.png',
-      year: 2021,
-      tags: ['html', 'CSS', 'JS'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.      '
-
-    },
-    {
-      id: getId(),
-      name: 'bankist marketing',
-      repo: 'https://github.com/vatsalsinghkv/bankist-marketing',
-      img: 'https://user-images.githubusercontent.com/68834718/210225545-989f79c3-cf05-4c53-b48e-b21f373b3734.png',
-      year: 2021,
-      tags: ['html', 'CSS', 'JS'],      
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.      '
-
-    },
+      tags: ['LSTM', 'Neural Network', 'Pandas', 'BERT', 'PyTorch', 'NLP'],
+      description: 'This AI Social Good project, titled Natural Language Processing for Finance, focused on creating a system that uses text sentiment analysis to predict stock values. The project involved data cleansing using Python and Pandas, applying tokenization and stemming to handle unstructured social media data, ensuring high-quality input for LSTM and BERT models. An LSTM neural network was collaboratively designed, and a BERT model was fine-tuned using the PyTorch Hugging Face library, achieving nearly 95% accuracy with BERT and 85% with LSTM for stock value prediction.'
+    },    
   ],
 };

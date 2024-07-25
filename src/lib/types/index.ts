@@ -27,7 +27,7 @@ export type ProjectType = {
   id: string;
   name: string;
   year: number;
-  img: string;
+  img: any;
   tags: string[];
   repo: string;
   description: string;
