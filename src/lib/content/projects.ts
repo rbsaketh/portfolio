@@ -6,6 +6,24 @@ export const projectsSection: ProjectsSectionType = {
   projects: [
     {
       id: getId(),
+      name: 'PantryPro AI',
+      repo: 'https://github.com/rbsaketh/management_system',
+      img: '/3.png',
+      year: 2024,
+      tags: ['Next.js', 'React.js', 'Firebase', 'Material UI', 'Llama 3.1 API', 'OpenAI API'],
+      description: 'PantryPro AI is a sophisticated pantry management application developed from June to July 2024. Built with Next.js and React.js for the frontend, and Firebase for the backend, it offers a seamless user experience for managing pantry items with secure login through Firebase Auth. The application is enhanced with AI capabilities using Llama 3.1 and OpenAI APIs to provide intelligent features like image classification and personalized recipe suggestions. These advanced features make PantryPro AI not just a simple inventory tool but a smart assistant in the kitchen, helping users optimize their pantry and meal planning.'
+    },    
+    {
+      id: getId(),
+      name: 'Memory Card Game',
+      repo: 'https://github.com/rbsaketh/Memory_game',
+      img: '/2.png',
+      year: 2024,
+      tags: ['React.js', 'CSS', 'Pokemon API'],
+      description: 'The Memory Card Game is an engaging and interactive web-based game developed using React.js and CSS, with data fetched from the Pokemon API. Players are challenged to match pairs of Pokemon cards, testing their memory and concentration in an enjoyable and visually appealing environment. The game dynamically fetches and displays a wide array of Pokemon, offering a fresh experience with every playthrough. It is a fun and educational project that demonstrates the power of APIs and modern web technologies in creating dynamic and interactive user experiences.'
+    },      
+    {
+      id: getId(),
       name: 'Library Application',
       repo: 'https://github.com/rbsaketh/Library-app',
       img: '/third.png',
@@ -39,6 +57,6 @@ export const projectsSection: ProjectsSectionType = {
       year: 2022,
       tags: ['LSTM', 'Neural Network', 'Pandas', 'BERT', 'PyTorch', 'NLP'],
       description: 'This AI Social Good project, titled Natural Language Processing for Finance, focused on creating a system that uses text sentiment analysis to predict stock values. The project involved data cleansing using Python and Pandas, applying tokenization and stemming to handle unstructured social media data, ensuring high-quality input for LSTM and BERT models. An LSTM neural network was collaboratively designed, and a BERT model was fine-tuned using the PyTorch Hugging Face library, achieving nearly 95% accuracy with BERT and 85% with LSTM for stock value prediction.'
-    },    
+    },  
   ],
 };
