@@ -1,6 +1,7 @@
 import { seoData } from '@/lib/content/portfolio';
 import ThemeProvider from '@/lib/hooks/use-theme';
 import fontVariables from '@/lib/utils/fonts';
+import { Analytics } from "@vercel/analytics/react"
 
 import '../styles/globals.css';
 import type { Metadata } from 'next';
