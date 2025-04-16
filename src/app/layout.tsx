@@ -78,7 +78,8 @@ export default function RootLayout({
         <script src="/scripts/no-flash.js" async />
       </head>
       <body className={`text-text bg-bg ${fontVariables}`}>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>{children}<Analytics />
+        </ThemeProvider>
       </body>
     </html>
   );
