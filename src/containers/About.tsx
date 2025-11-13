@@ -26,7 +26,7 @@ const About = () => {
           <p>
           Hello! I'm Saketh Bireddy, a Computer Science student at Purdue University with a deep passion for technology and its potential to solve real-world problems. My journey in computer science is driven by a commitment to innovation and a desire to make a positive impact on society.
 
-          <br></br><br></br>I'm currently working at a startup called Mingley where I'm working on an innovative social media app.
+          <br></br><br></br>I'm currently continuing my internship through the fall working part time at Trimble.
 
           <br></br><br></br>Beyond academics, I love to play volleyball and soccer and actively try out new things.
           </p>
