@@ -1,7 +1,12 @@
-import { SiNextdotjs, SiTailwindcss, SiExpress, SiJavascript, SiReact, SiPrisma, SiCss3, SiCsharp, SiMysql, SiDotnet, SiPython, SiHtml5, SiPytorch, SiR, SiMongodb, SiSupabase } from 'react-icons/si';
-import { FaBrain } from 'react-icons/fa'; // Using FaBrain for Neural Networks
-import { GiArtificialIntelligence } from 'react-icons/gi'; // Using GiArtificialIntelligence for NLP
-import { DiJava } from 'react-icons/di'; // Using a different icon set for Java
+import { 
+  SiNextdotjs, SiTailwindcss, SiExpress, SiJavascript, SiTypescript, 
+  SiReact, SiPrisma, SiCss3, SiCsharp, SiDotnet, SiPython, 
+  SiHtml5, SiPytorch, SiR, SiMongodb, SiSupabase, SiC, SiCplusplus, 
+  SiAmazonaws, SiGooglecloud, SiJenkins, SiDocker, SiFirebase, SiPostgresql, SiReacthookform
+} from 'react-icons/si';
+import { DiJava } from 'react-icons/di';
+import { FaBrain } from 'react-icons/fa';
+import { GiArtificialIntelligence } from 'react-icons/gi';
 import { AboutSectionType } from '@/lib/types/sections';
 
 export const aboutSection: AboutSectionType = {
@@ -9,26 +14,24 @@ export const aboutSection: AboutSectionType = {
   list: {
     title: 'Here are a few technologies I’ve been working with recently:',
     items: [
-      { name: 'Next.js', icon: SiNextdotjs },
-      { name: 'Tailwind CSS', icon: SiTailwindcss },
-      { name: 'Express.js', icon: SiExpress },
-      { name: 'JavaScript', icon: SiJavascript },
-      { name: 'React.js', icon: SiReact },
-      { name: 'Prisma', icon: SiPrisma },
-      { name: 'CSS Animations', icon: SiCss3 },
-      { name: 'C#', icon: SiCsharp },
-      { name: 'SQL', icon: SiMysql },
-      { name: '.NET', icon: SiDotnet },
+      { name: 'C', icon: SiC },
+      { name: 'C++', icon: SiCplusplus },
       { name: 'Java', icon: DiJava },
       { name: 'Python', icon: SiPython },
-      { name: 'HTML', icon: SiHtml5 },
+      { name: 'JavaScript', icon: SiJavascript },
+      { name: 'TypeScript', icon: SiTypescript },
+      { name: 'React.js', icon: SiReact },
+      { name: 'Next.js', icon: SiNextdotjs },
+      { name: 'React Native', icon: SiReacthookform },
       { name: 'CSS', icon: SiCss3 },
-      { name: 'NLP', icon: GiArtificialIntelligence },
-      { name: 'PyTorch', icon: SiPytorch },
-      { name: 'Neural Networks', icon: FaBrain },
-      { name: 'R', icon: SiR },
-      { name: 'MongoDB', icon: SiMongodb },
-      { name: 'Supabase', icon: SiSupabase },
+      { name: 'C#', icon: SiCsharp },
+      { name: '.NET', icon: SiDotnet },
+      { name: 'PostgreSQL', icon: SiPostgresql },
+      { name: 'AWS', icon: SiAmazonaws },
+      { name: 'GCP', icon: SiGooglecloud },
+      { name: 'Jenkins', icon: SiJenkins },
+      { name: 'Docker', icon: SiDocker },
+      { name: 'Firebase', icon: SiFirebase },
     ],
   },
   img: '/IMG_3352_Original.jpg',
