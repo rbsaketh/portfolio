@@ -1,18 +1,31 @@
+// src/components/AuthorImage.tsx
 import Image from 'next/image';
 
-type Props = { src: string; alt: string };
+type AuthorImageProps = {
+  src: string;
+  alt: string;
+};
 
-const AuthorImage = ({ src, alt }: Props) => {
+const AuthorImage = ({ src, alt }: AuthorImageProps) => {
   return (
-    <div className="relative w-64 h-64 group sm:w-auto sm:h-auto">
+    <div
+      className="
+        relative
+        w-80           /* ~240px wide */
+        h-96            /* ~320px tall */
+        overflow-hidden
+        rounded-2xl
+        shadow-lg
+      "
+    >
       <Image
         src={src}
         alt={alt}
-        width={300}
-        height={400}
-        className="rounded shadow-xl"
+        fill
+        sizes="240px"
+        className="object-cover scale-120 transform"
+        priority
       />
-      <div className="absolute inset-0"></div>
     </div>
   );
 };
